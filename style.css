@@ -36,6 +36,7 @@
 }
 
 
+
 .skills-bars {
   margin-top: 24px;
   display: flex;
@@ -218,6 +219,18 @@
   color: var(--accent);
   transform: translateY(-2px);
 }
+.pub-list {
+  list-style: disc;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.pub-list li {
+  margin-bottom: 10px;
+}
 
 .skill-percent {
   text-align: right;
@@ -323,10 +336,11 @@ body {
   max-width: 500px;
 }
 
-.hero-text img {
+.hero-text img.hero-photo {
   max-width: 160px;
   height: auto;
 }
+
 
 
 .hero-text h1 {
@@ -567,6 +581,36 @@ body {
   margin-left: 18px;
   color: var(--text-muted);
   font-size: 0.9rem;
+  line-height: 1.5;
+}
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.cert-card {
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+}
+
+.cert-card h3 {
+  font-size: 0.98rem;
+  margin-bottom: 4px;
+}
+
+.cert-provider {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.cert-note {
+  font-size: 0.85rem;
+  color: var(--text-muted);
   line-height: 1.5;
 }
 
