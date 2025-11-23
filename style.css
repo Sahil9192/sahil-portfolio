@@ -38,7 +38,7 @@
 
 
 .skills-bars {
-  margin-top: 24px;
+  margin-top: 32px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -655,4 +655,7 @@ body {
 img.hero-photo {
   width: 160px !important;
   height: 160px !important;
+}
+#publications.section {
+  padding-top: 32px;
 }
